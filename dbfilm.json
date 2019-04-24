@@ -1,56 +1,259 @@
 {
-  "film": [
-    { "filmId": 1, "title": "El resplandor", "originalTitle": " ", "imdb": " ", "year": " ", "duration": " " },
-    { "filmId": 2, "title": "La chaqueta metálica", "originalTitle": " ", "imdb": " ", "year": " ", "duration": " " },
-    { "filmId": 3, "title": "La naranja mecánica", "originalTitle": " ", "imdb": " ", "year": " ", "duration": " " },
-    { "filmId": 4, "title": "2001: Una odisea del Espacio", "originalTitle": " ", "imdb": " ", "year": " ", "duration": " " },
-    { "filmId": 5, "title": "Barry Lyndon", "originalTitle": " ", "imdb": " ", "year": " ", "duration": " " },
-    { "filmId": 6, "title": "El sargento de hierro", "originalTitle": " ", "imdb": " ", "year": " ", "duration": " " },
-    { "filmId": 7, "title": "Sin perdón", "originalTitle": " ", "imdb": " ", "year": " ", "duration": " " },
-    { "filmId": 8, "title": "Gran Torino", "originalTitle": " ", "imdb": " ", "year": " ", "duration": " " },
-    { "filmId": 9, "title": "Million Dollar Baby", "originalTitle": " ", "imdb": " ", "year": " ", "duration": " " },
-    { "filmId": 10, "title": "El jinete pálido", "originalTitle": " ", "imdb": " ", "year": " ", "duration": " " },
-    { "filmId": 11, "title": "The Hateful Eight", "originalTitle": " ", "imdb": " ", "year": " ", "duration": " " },
-    { "filmId": 12, "title": "Django Desencadenado", "originalTitle": " ", "imdb": " ", "year": " ", "duration": " " },
-    { "filmId": 13, "title": "Malditos Bastardos", "originalTitle": " ", "imdb": " ", "year": " ", "duration": " " },
-    { "filmId": 14, "title": "Kill Bill", "originalTitle": " ", "imdb": " ", "year": " ", "duration": " " },
-    { "filmId": 15, "title": "Pulp Fiction", "originalTitle": " ", "imdb": " ", "year": " ", "duration": " " },
-  ],
-  "country": [
-    { "countryId": 1, "country": " " },
-    { "countryId": 2, "country": " " },
-    { "countryId": 3, "country": " " },
-    { "countryId": 4, "country": " " },
-    { "countryId": 5, "country": " " },
-    { "countryId": 6, "country": " " },
-    { "countryId": 7, "country": " " },
-    { "countryId": 8, "country": " " }
-  ],
-  "movieCountry": [
-    { "movieCountryId": 1, "filmId": " ", "countryId": " " },
-    { "movieCountryId": 2, "filmId": " ", "countryId": " " },
-    { "movieCountryId": 3, "filmId": " ", "countryId": " " },
-    { "movieCountryId": 4, "filmId": " ", "countryId": " " },
-    { "movieCountryId": 5, "filmId": " ", "countryId": " " },
-    { "movieCountryId": 6, "filmId": " ", "countryId": " " },
-    { "movieCountryId": 7, "filmId": " ", "countryId": " " },
-    { "movieCountryId": 8, "filmId": " ", "countryId": " " },
-  ],
-  "director": [
-    { "directorId": 1, "name": "Clint", "surname": "Eastwood" },
-    { "directorId": 2, "name": "Stanley", "surname": "Kubrick" },
-    { "directorId": 3, "name": "Quentin", "surname": "Tarantino" }
-  ],
-  "movieDirector": [
-    { "movieDirectorId": 1, "filmId": " ", "directorId": 2 },
-    { "movieDirectorId": 2, "filmId": " ", "directorId": 2 },
-    { "movieDirectorId": 3, "filmId": " ", "directorId": 2 },
-    { "movieDirectorId": 4, "filmId": " ", "directorId": 2 },
-    { "movieDirectorId": 5, "filmId": " ", "directorId": 2 },
-    { "movieDirectorId": 6, "filmId": " ", "directorId": 1 },
-    { "movieDirectorId": 7, "filmId": " ", "directorId": 1 },
-    { "movieDirectorId": 8, "filmId": " ", "directorId": 1 },
-    { "movieDirectorId": 9, "filmId": " ", "directorId": 1 },
-    { "movieDirectorId": 10, "filmId": " ", "directorId": 1 },
-  ]
+	"film": [{
+			"filmId": 1,
+			"title": "El resplandor",
+			"originalTitle": " ",
+			"imdb": " ",
+			"year": " ",
+			"duration": " "
+		},
+		{
+			"filmId": 2,
+			"title": "La chaqueta metálica",
+			"originalTitle": " ",
+			"imdb": " ",
+			"year": " ",
+			"duration": " "
+		},
+		{
+			"filmId": 3,
+			"title": "La naranja mecánica",
+			"originalTitle": " ",
+			"imdb": " ",
+			"year": " ",
+			"duration": " "
+		},
+		{
+			"filmId": 4,
+			"title": "2001: Una odisea del Espacio",
+			"originalTitle": " ",
+			"imdb": " ",
+			"year": " ",
+			"duration": " "
+		},
+		{
+			"filmId": 5,
+			"title": "Barry Lyndon",
+			"originalTitle": " ",
+			"imdb": " ",
+			"year": " ",
+			"duration": " "
+		},
+		{
+			"filmId": 6,
+			"title": "El sargento de hierro",
+			"originalTitle": " ",
+			"imdb": " ",
+			"year": " ",
+			"duration": " "
+		},
+		{
+			"filmId": 7,
+			"title": "Sin perdón",
+			"originalTitle": " ",
+			"imdb": " ",
+			"year": " ",
+			"duration": " "
+		},
+		{
+			"filmId": 8,
+			"title": "Gran Torino",
+			"originalTitle": " ",
+			"imdb": " ",
+			"year": " ",
+			"duration": " "
+		},
+		{
+			"filmId": 9,
+			"title": "Million Dollar Baby",
+			"originalTitle": " ",
+			"imdb": " ",
+			"year": " ",
+			"duration": " "
+		},
+		{
+			"filmId": 10,
+			"title": "El jinete pálido",
+			"originalTitle": " ",
+			"imdb": " ",
+			"year": " ",
+			"duration": " "
+		},
+		{
+			"filmId": 11,
+			"title": "The Hateful Eight",
+			"originalTitle": " ",
+			"imdb": " ",
+			"year": " ",
+			"duration": " "
+		},
+		{
+			"filmId": 12,
+			"title": "Django Desencadenado",
+			"originalTitle": " ",
+			"imdb": " ",
+			"year": " ",
+			"duration": " "
+		},
+		{
+			"filmId": 13,
+			"title": "Malditos Bastardos",
+			"originalTitle": " ",
+			"imdb": " ",
+			"year": " ",
+			"duration": " "
+		},
+		{
+			"filmId": 14,
+			"title": "Kill Bill",
+			"originalTitle": " ",
+			"imdb": " ",
+			"year": " ",
+			"duration": " "
+		},
+		{
+			"filmId": 15,
+			"title": "Pulp Fiction",
+			"originalTitle": " ",
+			"imdb": " ",
+			"year": " ",
+			"duration": " "
+		}
+	],
+	"country": [{
+			"countryId": 1,
+			"country": " "
+		},
+		{
+			"countryId": 2,
+			"country": " "
+		},
+		{
+			"countryId": 3,
+			"country": " "
+		},
+		{
+			"countryId": 4,
+			"country": " "
+		},
+		{
+			"countryId": 5,
+			"country": " "
+		},
+		{
+			"countryId": 6,
+			"country": " "
+		},
+		{
+			"countryId": 7,
+			"country": " "
+		},
+		{
+			"countryId": 8,
+			"country": " "
+		}
+	],
+	"movieCountry": [{
+			"movieCountryId": 1,
+			"filmId": " ",
+			"countryId": " "
+		},
+		{
+			"movieCountryId": 2,
+			"filmId": " ",
+			"countryId": " "
+		},
+		{
+			"movieCountryId": 3,
+			"filmId": " ",
+			"countryId": " "
+		},
+		{
+			"movieCountryId": 4,
+			"filmId": " ",
+			"countryId": " "
+		},
+		{
+			"movieCountryId": 5,
+			"filmId": " ",
+			"countryId": " "
+		},
+		{
+			"movieCountryId": 6,
+			"filmId": " ",
+			"countryId": " "
+		},
+		{
+			"movieCountryId": 7,
+			"filmId": " ",
+			"countryId": " "
+		}
+	],
+	"director": [{
+			"directorId": 1,
+			"name": "Clint",
+			"surname": "Eastwood"
+		},
+		{
+			"directorId": 2,
+			"name": "Stanley",
+			"surname": "Kubrick"
+		},
+		{
+			"directorId": 3,
+			"name": "Quentin",
+			"surname": "Tarantino"
+		}
+	],
+	"movieDirector": [{
+			"movieDirectorId": 1,
+			"filmId": " ",
+			"directorId": 2
+		},
+		{
+			"movieDirectorId": 2,
+			"filmId": " ",
+			"directorId": 2
+		},
+		{
+			"movieDirectorId": 3,
+			"filmId": " ",
+			"directorId": 2
+		},
+		{
+			"movieDirectorId": 4,
+			"filmId": " ",
+			"directorId": 2
+		},
+		{
+			"movieDirectorId": 5,
+			"filmId": " ",
+			"directorId": 2
+		},
+		{
+			"movieDirectorId": 6,
+			"filmId": " ",
+			"directorId": 1
+		},
+		{
+			"movieDirectorId": 7,
+			"filmId": " ",
+			"directorId": 1
+		},
+		{
+			"movieDirectorId": 8,
+			"filmId": " ",
+			"directorId": 1
+		},
+		{
+			"movieDirectorId": 9,
+			"filmId": " ",
+			"directorId": 1
+		},
+		{
+			"movieDirectorId": 10,
+			"filmId": " ",
+			"directorId": 1
+		}
+	]
 }
