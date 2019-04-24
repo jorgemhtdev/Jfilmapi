@@ -67,6 +67,10 @@ URI base: https://my-json-server.typicode.com/jorgemht/demo
 
 It is recommended to test the API using a tool such as the excellent [Postman](https://www.getpostman.com/).
 
+*Read the default routes* => https://github.com/typicode/json-server#routes
+
+*Examples about the default routes* => https://documenter.getpostman.com/view/494451/S1EWNaSk
+
 # Licenses
 
 Fork from https://github.com/typicode/demo
