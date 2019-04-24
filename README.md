@@ -4,6 +4,10 @@ It is a simple API.
 
 # Database
 
+The following image shows the schema of the database, its tables, data and relationships:
+
+![Esquema BBDD](https://github.com/jorgemht/demo/blob/master/DateBase.png)
+
 # Entities
 
 ```csharp
@@ -13,7 +17,7 @@ public class Film
     public string Title { get; set; }
     public string OriginalTitle { get; set; }
     public decimal Imdb { get; set; }
-    public DateTime year { get; set; }
+    public DateTime Year { get; set; }
     public short Duration { get; set; }
 }
 ```
