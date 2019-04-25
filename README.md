@@ -10,6 +10,8 @@ The following image shows the schema of the database, its tables, data and relat
 
 # Entities
 
+It is used to obtain information from the movies.
+
 ```csharp
 public class Film
 {
@@ -22,6 +24,8 @@ public class Film
 }
 ```
 
+It is used to obtain information from the countries.
+
 ```csharp
 public class Country
 {
@@ -29,6 +33,8 @@ public class Country
     public string Country { get; set; }
 }
 ```
+
+It is used to obtain information of the films by countries.
 
 ```csharp
 public class MovieCountry 
@@ -38,6 +44,7 @@ public class MovieCountry
     public int CountryId { get; set; }
 }
 ```
+It is used to obtain information from the directors.
 
 ```csharp
 public class Director
@@ -47,6 +54,8 @@ public class Director
     public string Surname { get; set; }
 }
 ```
+
+It is used to obtain film information by directors.
 
 ```csharp
 public class MovieDirector 
