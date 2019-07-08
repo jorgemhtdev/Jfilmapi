@@ -1,7 +1,7 @@
 # Film Info API
 
 It is a simple API.
-
+ 
 # Database
 
 The following image shows the schema of the database, its tables, data and relationships:
