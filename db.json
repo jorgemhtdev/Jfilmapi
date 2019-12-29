@@ -2,122 +2,122 @@
 	"film": [{
 			"filmId": 1,
 			"title": "El resplandor",
-			"originalTitle": " ",
-			"imdb": " ",
-			"year": " ",
-			"duration": " "
+			"originalTitle": "The Shining",
+			"imdb": "8,2",
+			"year": "1980",
+			"duration": "146"
 		},
 		{
 			"filmId": 2,
 			"title": "La chaqueta metálica",
-			"originalTitle": " ",
-			"imdb": " ",
-			"year": " ",
-			"duration": " "
+			"originalTitle": "Full Metal Jacket",
+			"imdb": "8,2",
+			"year": 1987",
+			"duration": "120"
 		},
 		{
 			"filmId": 3,
 			"title": "La naranja mecánica",
-			"originalTitle": " ",
-			"imdb": " ",
-			"year": " ",
-			"duration": " "
+			"originalTitle": "A Clockwork Orange",
+			"imdb": "8,2",
+			"year": "1971",
+			"duration": "137"
 		},
 		{
 			"filmId": 4,
 			"title": "2001: Una odisea del Espacio",
 			"originalTitle": " ",
-			"imdb": " ",
-			"year": " ",
-			"duration": " "
+			"imdb": "7,8",
+			"year": "1968",
+			"duration": "139"
 		},
 		{
 			"filmId": 5,
 			"title": "Barry Lyndon",
-			"originalTitle": " ",
-			"imdb": " ",
-			"year": " ",
-			"duration": " "
+			"originalTitle": "Barry Lyndon",
+			"imdb": "7,9",
+			"year": "1975",
+			"duration": "183"
 		},
 		{
 			"filmId": 6,
 			"title": "El sargento de hierro",
-			"originalTitle": " ",
-			"imdb": " ",
-			"year": " ",
-			"duration": " "
+			"originalTitle": "Heartbreak Ridge",
+			"imdb": "7,2",
+			"year": "1986",
+			"duration": "126"
 		},
 		{
 			"filmId": 7,
 			"title": "Sin perdón",
-			"originalTitle": " ",
-			"imdb": " ",
-			"year": " ",
-			"duration": " "
+			"originalTitle": "Unforgiven",
+			"imdb": "8,2",
+			"year": "1992",
+			"duration": "126"
 		},
 		{
 			"filmId": 8,
 			"title": "Gran Torino",
-			"originalTitle": " ",
-			"imdb": " ",
-			"year": " ",
-			"duration": " "
+			"originalTitle": "Gran Torino",
+			"imdb": "8,2",
+			"year": "2008",
+			"duration": "119"
 		},
 		{
 			"filmId": 9,
 			"title": "Million Dollar Baby",
-			"originalTitle": " ",
-			"imdb": " ",
-			"year": " ",
-			"duration": " "
+			"originalTitle": "Million Dollar Baby",
+			"imdb": "8,0",
+			"year": "2004",
+			"duration": "132"
 		},
 		{
 			"filmId": 10,
 			"title": "El jinete pálido",
-			"originalTitle": " ",
-			"imdb": " ",
-			"year": " ",
-			"duration": " "
+			"originalTitle": "Pale Rider",
+			"imdb": "7,5",
+			"year": "1985",
+			"duration": "113"
 		},
 		{
 			"filmId": 11,
-			"title": "The Hateful Eight",
-			"originalTitle": " ",
-			"imdb": " ",
-			"year": " ",
-			"duration": " "
+			"title": "Los odiosos ocho",
+			"originalTitle": "he Hateful Eight",
+			"imdb": "7,3",
+			"year": "2015",
+			"duration": "167"
 		},
 		{
 			"filmId": 12,
 			"title": "Django Desencadenado",
-			"originalTitle": " ",
-			"imdb": " ",
-			"year": " ",
-			"duration": " "
+			"originalTitle": "Django Unchained",
+			"imdb": "7,9",
+			"year": "2012",
+			"duration": "165"
 		},
 		{
 			"filmId": 13,
 			"title": "Malditos Bastardos",
-			"originalTitle": " ",
-			"imdb": " ",
-			"year": " ",
-			"duration": " "
+			"originalTitle": "Inglourious Basterds",
+			"imdb": "7,8",
+			"year": "2009",
+			"duration": "146"
 		},
 		{
 			"filmId": 14,
 			"title": "Kill Bill",
 			"originalTitle": " ",
-			"imdb": " ",
-			"year": " ",
-			"duration": " "
+			"imdb": "7,6",
+			"year": "2003",
+			"duration": "110"
 		},
 		{
 			"filmId": 15,
 			"title": "Pulp Fiction",
-			"originalTitle": " ",
-			"imdb": " ",
-			"year": " ",
-			"duration": " "
+			"originalTitle": "Pulp Fiction",
+			"imdb": "8,6",
+			"year": "1994",
+			"duration": "153"
 		}
 	],
 	"country": [{
