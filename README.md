@@ -1,6 +1,6 @@
 # Film Info API
 
-It is a simple API.
+Pending update
  
 # Database
 
@@ -10,59 +10,48 @@ The following image shows the schema of the database, its tables, data and relat
 
 # Entities
 
-It is used to obtain information from the movies.
+
+
+```csharp
+public class User
+{
+    public int Id { get; set; }
+    public string UserName { get; set; }
+    public string Password { get; set; }
+}
+```
+
 
 ```csharp
 public class Film
 {
-    public int FilmId { get; set; }
+    public int Id { get; set; }
     public string Title { get; set; }
     public string OriginalTitle { get; set; }
     public decimal Imdb { get; set; }
+    public string Description { get; set; }
     public DateTime Year { get; set; }
     public short Duration { get; set; }
 }
 ```
 
-It is used to obtain information from the countries.
 
 ```csharp
-public class Country
+public class Favorites 
 {
-    public int CountryId { get; set; }
-    public string Country { get; set; }
-}
-```
-
-It is used to obtain information of the films by countries.
-
-```csharp
-public class MovieCountry 
-{
-    public int MovieCountryId { get; set; }
+    public int Id { get; set; }
+    public int UserId { get; set; }
     public int FilmId { get; set; }
-    public int CountryId { get; set; }
-}
-```
-It is used to obtain information from the directors.
-
-```csharp
-public class Director
-{
-    public int DirectorId { get; set; }
-    public string Name { get; set; }
-    public string Surname { get; set; }
 }
 ```
 
-It is used to obtain film information by directors.
-
 ```csharp
-public class MovieDirector 
+public class Points
 {
-    public int MovieDirectorId { get; set; }
+    public int Id { get; set; }
+    public int UserId { get; set; }
     public int FilmId { get; set; }
-    public int DirectorId { get; set; }
+    public short Point { get; set; }
 }
 ```
 
