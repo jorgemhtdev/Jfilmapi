@@ -6,7 +6,7 @@ It is a simple API.
 
 The following image shows the schema of the database, its tables, data and relationships:
 
-![Esquema BBDD](https://github.com/jorgemht/demo/blob/master/DateBase.png)
+![Esquema BBDD](https://github.com/jorgemht/demo/blob/master/DataBaseDesign.png)
 
 # Entities
 
