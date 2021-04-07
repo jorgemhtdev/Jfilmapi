@@ -24,7 +24,7 @@ struct Comic: Codable {
     }
 }
 ```
-# Entities Csharp
+# Entities CSharp
 
 ``` csharp
     public partial class JApi
