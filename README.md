@@ -35,29 +35,30 @@ struct Comic: Codable {
 ```
 
 ``` csharp
-    public partial class Comic
-    {
-        [JsonProperty("id")]
-        public long Id { get; set; }
 
-        [JsonProperty("publisher")]
-        public string Publisher { get; set; }
+public partial class Comic
+{
+    [JsonProperty("id")]
+    public long Id { get; set; }
 
-        [JsonProperty("description")]
-        public string Description { get; set; }
+    [JsonProperty("publisher")]
+    public string Publisher { get; set; }
 
-        [JsonProperty("title")]
-        public string Title { get; set; }
+    [JsonProperty("description")]
+    public string Description { get; set; }
 
-        [JsonProperty("price")]
-        public string Price { get; set; }
+    [JsonProperty("title")]
+    public string Title { get; set; }
 
-        [JsonProperty("creators")]
-        public string Creators { get; set; }
+    [JsonProperty("price")]
+    public string Price { get; set; }
+ 
+    [JsonProperty("creators")]
+    public string Creators { get; set; }
 
-        [JsonProperty("releaseDate")]
-        public string ReleaseDate { get; set; }
-    }
+    [JsonProperty("releaseDate")]
+    public string ReleaseDate { get; set; }
+}
 ```
 
 # API methods
