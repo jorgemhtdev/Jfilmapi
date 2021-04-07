@@ -61,6 +61,24 @@ public partial class Comic
 }
 ```
 
+You can use https://app.quicktype.io to generate models and serializers from JSON. The JSON of this api is as follows:
+
+```
+{
+   "comics":[
+      {
+         "id":1,
+         "publisher":" ",
+         "description":" ",
+         "title":" ",
+         "price":"$0.00",
+         "creators":"",
+         "releaseDate":""
+      }
+   ]
+}
+```
+
 # API methods
 
 The methods available in the API are the following:
