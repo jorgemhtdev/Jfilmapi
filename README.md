@@ -2,7 +2,7 @@
 
 Pending update
 
-# Entities Swift
+## Entities Swift
 
 
 ``` swift
@@ -24,7 +24,7 @@ struct Comic: Codable {
     }
 }
 ```
-# Entities CSharp
+## Entities CSharp
 
 ``` csharp
     public partial class JApi
