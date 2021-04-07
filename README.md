@@ -1,58 +1,63 @@
-# Film Info API
+# Comic Info API
 
 Pending update
- 
-# Database
 
-The following image shows the schema of the database, its tables, data and relationships:
-
-![Esquema BBDD](https://github.com/jorgemht/demo/blob/master/DataBaseDesign.png)
-
-# Entities
+# Entities Swift
 
 
+``` swift
+struct JApi: Codable {
+    let comics: [Comic]
+}
+``` 
 
-```csharp
-public class User
-{
-    public int Id { get; set; }
-    public string UserName { get; set; }
-    public string Password { get; set; }
+``` swift
+struct Comic: Codable {
+    let id: Int
+    let publisher, comicDescription, title, price: String
+    let creators, releaseDate: String
+
+    enum CodingKeys: String, CodingKey {
+        case id, publisher
+        case comicDescription = "description"
+        case title, price, creators, releaseDate
+    }
 }
 ```
+# Entities Csharp
 
-
-```csharp
-public class Film
-{
-    public int Id { get; set; }
-    public string Title { get; set; }
-    public string OriginalTitle { get; set; }
-    public decimal Imdb { get; set; }
-    public string Description { get; set; }
-    public DateTime Year { get; set; }
-    public short Duration { get; set; }
-}
+``` csharp
+    public partial class JApi
+    {
+        [JsonProperty("comics")]
+        public Comic[] Comics { get; set; }
+    }
 ```
 
+``` csharp
+    public partial class Comic
+    {
+        [JsonProperty("id")]
+        public long Id { get; set; }
 
-```csharp
-public class Favorites 
-{
-    public int Id { get; set; }
-    public int UserId { get; set; }
-    public int FilmId { get; set; }
-}
-```
+        [JsonProperty("publisher")]
+        public string Publisher { get; set; }
 
-```csharp
-public class Points
-{
-    public int Id { get; set; }
-    public int UserId { get; set; }
-    public int FilmId { get; set; }
-    public short Point { get; set; }
-}
+        [JsonProperty("description")]
+        public string Description { get; set; }
+
+        [JsonProperty("title")]
+        public string Title { get; set; }
+
+        [JsonProperty("price")]
+        public string Price { get; set; }
+
+        [JsonProperty("creators")]
+        public string Creators { get; set; }
+
+        [JsonProperty("releaseDate")]
+        public string ReleaseDate { get; set; }
+    }
 ```
 
 # API methods
@@ -60,12 +65,6 @@ public class Points
 The methods available in the API are the following:
 
 URI base: https://my-json-server.typicode.com/jorgemht/demo
-
-- **Get all film**: `film/`
-- **Get all country**: `country/`
-- **Get all movieCountry**: `movieCountry/`
-- **Get all director**: `director/`
-- **Get all movieDirector**: `movieDirector/`
 
 It is recommended to test the API using a tool such as the excellent [Postman](https://www.getpostman.com/).
 
