@@ -81,9 +81,9 @@ You can use https://app.quicktype.io to generate models and serializers from JSO
 
 # API methods
 
-The methods available in the API are the following:
+**The methods available in the API are the following:**
 
-URI base: https://my-json-server.typicode.com/jorgemht/demo
+*URI base:* https://my-json-server.typicode.com/jorgemht/demo
 
 It is recommended to test the API using a tool such as the excellent [Postman](https://www.getpostman.com/).
 
