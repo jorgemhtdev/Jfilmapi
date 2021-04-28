@@ -91,6 +91,6 @@ It is recommended to test the API using a tool such as the excellent [Postman](h
 
 *Examples about the default routes* => https://documenter.getpostman.com/view/494451/S1EWNaSk
 
-# Licenses
+# Licenses 
 
 Fork from https://github.com/typicode/demo
