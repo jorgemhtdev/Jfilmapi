@@ -7,7 +7,7 @@ Pending update
 
 ``` swift
 struct JApi: Codable {
-    let comics: [Comic]
+    let comic: [Comic]
 }
 ``` 
 
@@ -36,62 +36,60 @@ struct Comic: Codable {
 ## Entities CSharp
 
 ``` csharp
-    public partial class JApi
-    {
-        [JsonProperty("comics")]
-        public Comic[] Comics { get; set; }
-    }
+public class JApi
+{ 
+    [JsonProperty("comic")]
+    public List<Comic>() { get; set; }
+}
 ```
 
 ``` csharp
-
-public partial class Comic
+public class Comic
 {
-        [JsonProperty("id")]
-        public long Id { get; set; }
+    [JsonProperty("id")]
+    public long Id { get; set; }
 
-        [JsonProperty("isbn")]
-        public string Isbn { get; set; }
+    [JsonProperty("isbn")]
+    public string Isbn { get; set; }
 
-        [JsonProperty("desc")]
-        public string Desc { get; set; }
+    [JsonProperty("desc")]
+    public string Desc { get; set; }
 
-        [JsonProperty("fechaDeVenta")]
-        public DateTime FechaDeVenta { get; set; }
+    [JsonProperty("fechaDeVenta")]
+    public DateTime FechaDeVenta { get; set; }
 
-        [JsonProperty("formato")]
-        public string Formato { get; set; }
+    [JsonProperty("formato")]
+    public string Formato { get; set; }
 
-        [JsonProperty("numPag")]
-        public int NumPag { get; set; }
+    [JsonProperty("numPag")]
+    public int NumPag { get; set; }
 
-        [JsonProperty("tamano")]
-        public string Tamano { get; set; }
+    [JsonProperty("tamano")]
+    public string Tamano { get; set; }
 
-        [JsonProperty("color")]
-        public bool Color { get; set; }
+    [JsonProperty("color")]
+    public bool Color { get; set; }
+    
+    [JsonProperty("precio")]
+    public decimal Precio { get; set; }
 
-        [JsonProperty("precio")]
-        public decimal Precio { get; set; }
+    [JsonProperty("photo")]
+    public string Photo { get; set; }
 
-        [JsonProperty("photo")]
-        public string Photo { get; set; }
+    [JsonProperty("novedad")]
+    public bool Novedad { get; set; }
 
-        [JsonProperty("novedad")]
-        public bool Novedad { get; set; }
+    [JsonProperty("agotado")]
+    public bool Agotado { get; set; }
 
-        [JsonProperty("agotado")]
-        public bool Agotado { get; set; }
+    [JsonProperty("disponibilidad")]
+    public bool Disponibilidad { get; set; }
 
-        [JsonProperty("disponibilidad")]
-        public bool Disponibilidad { get; set; }
+    [JsonProperty("serie")]
+    public int Serie { get; set; }
 
-        [JsonProperty("serie")]
-        [JsonConverter(typeof(FluffyParseStringConverter))]
-        public int Serie { get; set; }
-
-        [JsonProperty("editorial")]
-        public int Editorial { get; set; }
+    [JsonProperty("editorial")]
+    public int Editorial { get; set; }
 }
 ```
 
