@@ -37,9 +37,9 @@ struct Comic: Codable {
 
 ``` csharp
 public class JApi
-{ 
+{
     [JsonProperty("comic")]
-    public List<Comic>() { get; set; }
+    public IEnumerable<Comic> Comic { get; set; }
 }
 ```
 
